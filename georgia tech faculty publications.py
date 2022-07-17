@@ -1,21 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
 
 #dated 24-02-2022
-
-
-# In[2]:
 
 
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 
-
-# In[3]:
 
 
 baseURL= "https://ece.gatech.edu/faculty-staff-directory/"
@@ -48,19 +41,15 @@ for i in range(129):
     grandDict[authorName]= d
 
 
-# In[4]:
-
 
 grandDict
 
 
-# In[1]:
 
+# dataFrame= pd.DataFrame(grandDict) 
+                                    #Error- since, grandDict has uneven number of rows for each column.
+                                    #use a non-relational database to store and display the entire data set
 
-# dataFrame= pd.DataFrame(grandDict)
-
-
-# In[ ]:
 
 
 
