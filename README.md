@@ -4,13 +4,9 @@
 scrapping all basic info, as follows, about Professors teaching at Georgia University Computer Science Department-
 
   -Name
-  
   -Job Title
-  
   -Email Address
-  
   -Work Phone Number(s)
-  
   -Office Address
 
   
